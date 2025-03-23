@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.js",  // File utama aplikasi
-      "use": "@vercel/node"  // Gunakan builder untuk Node.js
+      "src": "index.js", 
+      "use": "@vercel/node" 
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",  // Tangani semua route
-      "dest": "index.js"  // Arahkan ke file utama
+      "src": "/(.*)",  
+      "dest": "index.js"  
     }
   ]
     }
