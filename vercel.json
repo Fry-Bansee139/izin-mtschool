@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",  // Tangani semua route
-      "dest": "/"  // Arahkan ke file utama
+      "dest": "index.js"  // Arahkan ke file utama
     }
   ]
     }
